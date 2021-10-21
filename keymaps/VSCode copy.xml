@@ -1,3 +1,8 @@
 <keymap version="1" name="VSCode copy" parent="VSCode">
-  <action id="CodeCompletion" />
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
 </keymap>
