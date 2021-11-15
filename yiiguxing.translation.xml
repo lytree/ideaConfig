@@ -1,0 +1,25 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="Instruments the application startup phase using steps. The core container and its infrastructure components can use the ApplicationStartup to mark steps during the application startup and collect data about the execution context or their processing time." />
+    </histories>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1636985660359" />
+  </component>
+  <component name="Settings">
+    <option name="baiduTranslateSettings">
+      <app-key>
+        <option name="appId" value="20190412000287251" />
+      </app-key>
+    </option>
+    <option name="phoneticFontFamily" value="Microsoft YaHei UI" />
+    <option name="primaryFontFamily" value="Microsoft YaHei UI" />
+    <option name="translator" value="BAIDU" />
+    <option name="youdaoTranslateSettings">
+      <youdao-translate>
+        <option name="appId" value="3289501515931655" />
+      </youdao-translate>
+    </option>
+  </component>
+</application>
