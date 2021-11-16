@@ -15,7 +15,7 @@
     </option>
     <option name="phoneticFontFamily" value="Microsoft YaHei UI" />
     <option name="primaryFontFamily" value="Microsoft YaHei UI" />
-    <option name="translator" value="BAIDU" />
+    <option name="translator" value="YOUDAO" />
     <option name="youdaoTranslateSettings">
       <youdao-translate>
         <option name="appId" value="3289501515931655" />
