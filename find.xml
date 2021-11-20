@@ -1,8 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File 'E:\Java\repository\org\springframework\spring-beans\5.3.12\spring-beans-5.3.12.jar!\org\springframework\beans\factory\support\DefaultListableBeanFactory.class [Maven: org.springframework:spring-beans:5.3.12]'" />
-    <option name="defaultScopeName" value="File 'E:\Java\repository\org\springframework\spring-beans\5.3.12\spring-beans-5.3.12.jar!\org\springframework\beans\factory\support\DefaultListableBeanFactory.class [Maven: org.springframework:spring-beans:5.3.12]'" />
-    <option name="SEARCH_SCOPE" value="File 'E:\Java\repository\org\springframework\spring-beans\5.3.12\spring-beans-5.3.12.jar!\org\springframework\beans\factory\support\DefaultListableBeanFactory.class [Maven: org.springframework:spring-beans:5.3.12]'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.java" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
