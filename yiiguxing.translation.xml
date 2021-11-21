@@ -1,11 +1,18 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="A BeanDefinition describes a bean instance, which has property values, constructor argument values, and further information supplied by concrete implementations. This is just a minimal interface: The main intention is to allow a BeanFactoryPostProcessor to introspect and modify property values and other bean metadata." />
       <item value="Instruments the application startup phase using steps. The core container and its infrastructure components can use the ApplicationStartup to mark steps during the application startup and collect data about the execution context or their processing time." />
     </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="1" />
+        <entry key="ENGLISH" value="1" />
+      </map>
+    </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1636985660359" />
+    <option name="lastTrimTime" value="1637469367291" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
