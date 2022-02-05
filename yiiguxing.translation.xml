@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Create proxy if we have advice" />
       <item value="Specifies which types are eligible for component scanning. Further narrows the set of candidate components from everything in basePackages() to everything in the base packages that matches the given filter or filters" />
       <item value="Alias for the basePackages() attribute. Allows for more concise annotation declarations e.g.: @EnableJdbcRepositories(&quot;org.my.pkg&quot;) instead of @EnableJdbcRepositories(basePackages=&quot;org.my.pkg&quot;)." />
       <item value="Base packages to scan for annotated components. value() is an alias for (and mutually exclusive with) this attribute. Use basePackageClasses() for a type-safe alternative to String-based package names." />
@@ -11,13 +12,13 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="6" />
-        <entry key="ENGLISH" value="6" />
+        <entry key="CHINESE" value="7" />
+        <entry key="ENGLISH" value="7" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1641392745844" />
+    <option name="lastTrimTime" value="1644067130898" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
