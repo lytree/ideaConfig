@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Step recording metrics about a particular phase or action happening during the {@link ApplicationStartup}. &lt;p&gt;The lifecycle of a {@code StartupStep} goes as follows: &lt;ol&gt; &lt;li&gt;the step is created and starts by calling {@link ApplicationStartupstart(String) the application startup} and is assigned a unique {@link StartupStepgetId() id}. &lt;li&gt;we can then attach information with {@link Tags} during processing &lt;li&gt;we then need to mark the {@link end()} of the step &lt;ol&gt; &lt;p&gt;Implementations can track the &quot;execution time&quot; or other metrics for steps." />
+      <item value="Tell the subclass to refresh the internal bean factory." />
+      <item value="Prepare this context for refreshing" />
       <item value="Create proxy if we have advice" />
       <item value="Specifies which types are eligible for component scanning. Further narrows the set of candidate components from everything in basePackages() to everything in the base packages that matches the given filter or filters" />
       <item value="Alias for the basePackages() attribute. Allows for more concise annotation declarations e.g.: @EnableJdbcRepositories(&quot;org.my.pkg&quot;) instead of @EnableJdbcRepositories(basePackages=&quot;org.my.pkg&quot;)." />
@@ -12,8 +15,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="7" />
-        <entry key="ENGLISH" value="7" />
+        <entry key="CHINESE" value="10" />
+        <entry key="ENGLISH" value="10" />
       </map>
     </option>
   </component>
