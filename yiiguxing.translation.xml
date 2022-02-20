@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Simple implementation of the {@link ApplicationEventMulticaster} interface. &lt;p&gt;Multicasts all events to all registered listeners, leaving it up to the listeners to ignore events that they are not interested in. Listeners will usually perform corresponding {@code instanceof} checks on the passed-in event object. &lt;p&gt;By default, all listeners are invoked in the calling thread. This allows the danger of a rogue listener blocking the entire application, but adds minimal overhead. Specify an alternative task executor to have listeners executed in different threads, for example from a thread pool." />
       <item value="Propagate refresh to lifecycle processor first." />
       <item value="{@link BeanFactoryPostProcessor} used for bootstrapping processing of {@link Configuration @Configuration} classes. &lt;p&gt;Registered by default when using {@code &lt;context:annotation-config&gt;} or {@code &lt;context:component-scan&gt;}. Otherwise, may be declared manually as with any other {@link BeanFactoryPostProcessor}. &lt;p&gt;This post processor is priority-ordered as it is important that any {@link Bean @Bean} methods declared in {@code @Configuration} classes have their corresponding bean definitions registered before any other {@code BeanFactoryPostProcessor} executes." />
       <item value="registry Processors" />
@@ -20,8 +21,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="16" />
-        <entry key="ENGLISH" value="16" />
+        <entry key="CHINESE" value="17" />
+        <entry key="ENGLISH" value="17" />
       </map>
     </option>
   </component>
