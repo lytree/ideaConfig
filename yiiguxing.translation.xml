@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Propagate refresh to lifecycle processor first." />
       <item value="{@link BeanFactoryPostProcessor} used for bootstrapping processing of {@link Configuration @Configuration} classes. &lt;p&gt;Registered by default when using {@code &lt;context:annotation-config&gt;} or {@code &lt;context:component-scan&gt;}. Otherwise, may be declared manually as with any other {@link BeanFactoryPostProcessor}. &lt;p&gt;This post processor is priority-ordered as it is important that any {@link Bean @Bean} methods declared in {@code @Configuration} classes have their corresponding bean definitions registered before any other {@code BeanFactoryPostProcessor} executes." />
       <item value="registry Processors" />
       <item value="regular Post Processors" />
@@ -19,8 +20,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="15" />
-        <entry key="ENGLISH" value="15" />
+        <entry key="CHINESE" value="16" />
+        <entry key="ENGLISH" value="16" />
       </map>
     </option>
   </component>
