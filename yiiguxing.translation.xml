@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Handling edge case: Joda-time can only handle up to year 292278993 but we are given 292278994; So we parse the date string by first adjusting the year to 292278993. Then we add 1 year back afterwards." />
       <item value="Returns the read limit for mark-and-reset during retries; or -1 if not available." />
       <item value="It is highly recommended to fix these problems because they threaten the stability of your build. For this reason, future Maven versions might no longer support building such malformed projects." />
       <item value="allow Circular References" />
@@ -28,8 +29,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="25" />
-        <entry key="ENGLISH" value="25" />
+        <entry key="CHINESE" value="26" />
+        <entry key="ENGLISH" value="26" />
       </map>
     </option>
   </component>
