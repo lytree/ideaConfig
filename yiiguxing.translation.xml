@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Returns the read limit for mark-and-reset during retries; or -1 if not available." />
       <item value="It is highly recommended to fix these problems because they threaten the stability of your build. For this reason, future Maven versions might no longer support building such malformed projects." />
       <item value="allow Circular References" />
       <item value="Eagerly caching bean 'linkMapper' to allow for resolving potential circular references" />
@@ -27,8 +28,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="24" />
-        <entry key="ENGLISH" value="24" />
+        <entry key="CHINESE" value="25" />
+        <entry key="ENGLISH" value="25" />
       </map>
     </option>
   </component>
