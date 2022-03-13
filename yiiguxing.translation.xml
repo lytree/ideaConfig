@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Set properties with method names as keys and transaction attribute descriptors (parsed via TransactionAttributeEditor) as values: e.g. key = &quot;myMethod&quot;, value = &quot;PROPAGATION_REQUIRED,readOnly&quot;. &lt;p&gt;Note: Method names are always applied to the target class, no matter if defined in an interface or the class itself. &lt;p&gt;Internally, a NameMatchTransactionAttributeSource will be created from the given properties." />
       <item value="hash for forwarding nodes" />
       <item value="The smallest table capacity for which bins may be treeified. (Otherwise the table is resized if too many nodes in a bin.) The value should be at least 4 TREEIFY_THRESHOLD to avoid conflicts between resizing and treeification thresholds." />
       <item value="Handling edge case: Joda-time can only handle up to year 292278993 but we are given 292278994; So we parse the date string by first adjusting the year to 292278993. Then we add 1 year back afterwards." />
@@ -31,8 +32,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="28" />
-        <entry key="ENGLISH" value="28" />
+        <entry key="CHINESE" value="29" />
+        <entry key="ENGLISH" value="29" />
       </map>
     </option>
   </component>
