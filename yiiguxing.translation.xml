@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="This class implements the {@code Map} interface with a hash table, using reference-equality in place of object-equality when comparing keys (and values). In other words, in an {@code IdentityHashMap}, two keys {@code k1} and {@code k2} are considered equal if and only if {@code (k1==k2)}. (In normal {@code Map} implementations (like {@code HashMap}) two keys {@code k1} and {@code k2} are considered equal if and only if {@code (k1==null ? k2==null : k1.equals(k2))}.) &lt;p&gt;&lt;b&gt;This class is &lt;i&gt;not&lt;i&gt; a general-purpose {@code Map} implementation! While this class implements the {@code Map} interface, it intentionally violates {@code Map's} general contract, which mandates the use of the {@code equals} method when comparing objects. This class is designed for use only in the rare cases wherein reference-equality semantics are required.&lt;b&gt; &lt;p&gt;A typical use of this class is &lt;i&gt;topology-preserving object graph transformations&lt;i&gt;, such as serialization or deep-copying. To perform such a transformation, a program must maintain a &quot;node table&quot; that keeps track of all the object references that have already been processed. The node table must not equate distinct objects even if they happen to be equal. Another typical use of this class is to maintain &lt;i&gt;proxy objects&lt;i&gt;. For example, a debugging facility might wish to maintain a proxy object for each object in the program being debugged. &lt;p&gt;This class provides all of the optional map operations, and permits {@code null} values and the {@code null} key. This class makes no guarantees as to the order of the map; in particular, it does not guarantee that the order will remain constant over time." />
       <item value="Set properties with method names as keys and transaction attribute descriptors (parsed via TransactionAttributeEditor) as values: e.g. key = &quot;myMethod&quot;, value = &quot;PROPAGATION_REQUIRED,readOnly&quot;. &lt;p&gt;Note: Method names are always applied to the target class, no matter if defined in an interface or the class itself. &lt;p&gt;Internally, a NameMatchTransactionAttributeSource will be created from the given properties." />
       <item value="hash for forwarding nodes" />
       <item value="The smallest table capacity for which bins may be treeified. (Otherwise the table is resized if too many nodes in a bin.) The value should be at least 4 TREEIFY_THRESHOLD to avoid conflicts between resizing and treeification thresholds." />
@@ -32,8 +33,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="29" />
-        <entry key="ENGLISH" value="29" />
+        <entry key="CHINESE" value="30" />
+        <entry key="ENGLISH" value="30" />
       </map>
     </option>
   </component>
