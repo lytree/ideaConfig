@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Shifts the order of the given float array." />
+      <item value="andomly permutes the elements of the specified array using the Fisher-Yates algorithm." />
+      <item value="&lt;p&gt;Produces a new {@code boolean} array containing the elements between the start and end indices. &lt;p&gt;The start index is inclusive, the end index exclusive. Null array input produces null output." />
+      <item value="Reverses the order of the given array in the given range." />
       <item value="Gets an array containing the sole value of {@link Object} if {@link WildcardTypegetUpperBounds()} returns an empty array. Otherwise, it returns the result of {@link WildcardTypegetUpperBounds()} passed into {@link normalizeUpperBounds}. @param wildcardType the subject wildcard type, not {@code null} @return a non-empty array containing the upper bounds of the wildcard type." />
       <item value="Gets an array containing the sole value of {@link Object} if {@link WildcardTypegetUpperBounds()} returns an empty array. Otherwise, it returns the result of {@link WildcardTypegetUpperBounds()} passed into {@link normalizeUpperBounds}." />
       <item value="This class implements the {@code Map} interface with a hash table, using reference-equality in place of object-equality when comparing keys (and values). In other words, in an {@code IdentityHashMap}, two keys {@code k1} and {@code k2} are considered equal if and only if {@code (k1==k2)}. (In normal {@code Map} implementations (like {@code HashMap}) two keys {@code k1} and {@code k2} are considered equal if and only if {@code (k1==null ? k2==null : k1.equals(k2))}.) &lt;p&gt;&lt;b&gt;This class is &lt;i&gt;not&lt;i&gt; a general-purpose {@code Map} implementation! While this class implements the {@code Map} interface, it intentionally violates {@code Map's} general contract, which mandates the use of the {@code equals} method when comparing objects. This class is designed for use only in the rare cases wherein reference-equality semantics are required.&lt;b&gt; &lt;p&gt;A typical use of this class is &lt;i&gt;topology-preserving object graph transformations&lt;i&gt;, such as serialization or deep-copying. To perform such a transformation, a program must maintain a &quot;node table&quot; that keeps track of all the object references that have already been processed. The node table must not equate distinct objects even if they happen to be equal. Another typical use of this class is to maintain &lt;i&gt;proxy objects&lt;i&gt;. For example, a debugging facility might wish to maintain a proxy object for each object in the program being debugged. &lt;p&gt;This class provides all of the optional map operations, and permits {@code null} values and the {@code null} key. This class makes no guarantees as to the order of the map; in particular, it does not guarantee that the order will remain constant over time." />
@@ -35,8 +39,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="32" />
-        <entry key="ENGLISH" value="32" />
+        <entry key="CHINESE" value="36" />
+        <entry key="ENGLISH" value="36" />
       </map>
     </option>
   </component>
