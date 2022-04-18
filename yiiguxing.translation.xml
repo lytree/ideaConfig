@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The actual content of the post obtained by applying patch to V1 version." />
       <item value="Shifts the order of the given float array." />
       <item value="andomly permutes the elements of the specified array using the Fisher-Yates algorithm." />
       <item value="&lt;p&gt;Produces a new {@code boolean} array containing the elements between the start and end indices. &lt;p&gt;The start index is inclusive, the end index exclusive. Null array input produces null output." />
@@ -39,8 +40,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="36" />
-        <entry key="ENGLISH" value="36" />
+        <entry key="CHINESE" value="37" />
+        <entry key="ENGLISH" value="37" />
       </map>
     </option>
   </component>
