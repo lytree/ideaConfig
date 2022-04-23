@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Get post with the latest content by id. content from patch log." />
       <item value="The actual content of the post obtained by applying patch to V1 version." />
       <item value="Shifts the order of the given float array." />
       <item value="andomly permutes the elements of the specified array using the Fisher-Yates algorithm." />
@@ -40,8 +41,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="37" />
-        <entry key="ENGLISH" value="37" />
+        <entry key="CHINESE" value="38" />
+        <entry key="ENGLISH" value="38" />
       </map>
     </option>
   </component>
