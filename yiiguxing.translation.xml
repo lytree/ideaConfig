@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Find a single {@link Annotation} of {@code annotationType} on the supplied {@link Class}, traversing its interfaces, annotations, and superclasses if the annotation is not &lt;em&gt;directly present&lt;em&gt; on the given class itself. &lt;p&gt;This method explicitly handles class-level annotations which are not declared as {@link java.lang.annotation.Inherited inherited} &lt;em&gt;as well as meta-annotations and annotations on interfaces&lt;em&gt;. &lt;p&gt;The algorithm operates as follows: &lt;ol&gt; &lt;li&gt;Search for the annotation on the given class and return it if found. &lt;li&gt;Recursively search through all annotations that the given class declares. &lt;li&gt;Recursively search through all interfaces that the given class declares. &lt;li&gt;Recursively search through the superclass hierarchy of the given class. &lt;ol&gt; &lt;p&gt;Note: in this context, the term &lt;em&gt;recursively&lt;em&gt; means that the search process continues by returning to step 1 with the current interface, annotation, or superclass as the class to look for annotations on. @param clazz the class to look for annotations on @param annotationType the type of annotation to look for @return the first matching annotation, or {@code null} if not found" />
+      <item value="Get a single {@link Annotation} of {@code annotationType} from the supplied annotation: either the given annotation itself or a direct meta-annotation thereof. &lt;p&gt;Note that this method supports only a single level of meta-annotations. For support for arbitrary levels of meta-annotations, use one of the {@code find()} methods instead. @param annotation the Annotation to check @param annotationType the annotation type to look for, both locally and as a meta-annotation @return the first matching annotation, or {@code null} if not found @since 4.0" />
       <item value="Attribute converter persistence unit post processor." />
       <item value="Find whether the parent category is encrypted. If it is found, the result will be returned immediately. Otherwise, it will be found recursively according to parentId." />
       <item value="One or more properties of the result type on which the mapped property depends. The generated method implementation will invoke the setters of the result type ordered so that the given dependency relationship(s) are satisfied. Useful in case one property setter depends on the state of another property of the result type. &lt;p&gt; An error will be raised in case a cycle in the dependency relationships is detected. @return the dependencies of the mapped property" />
@@ -46,8 +48,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="42" />
-        <entry key="ENGLISH" value="42" />
+        <entry key="CHINESE" value="44" />
+        <entry key="ENGLISH" value="44" />
       </map>
     </option>
   </component>
