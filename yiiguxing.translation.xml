@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="An {@link AccessDeniedHandler} that delegates to other {@link AccessDeniedHandler} instances based upon the type of {@link HttpServletRequest} passed into {@link handle(HttpServletRequest, HttpServletResponse, AccessDeniedException)}. @author Josh Cummings @since 5.1" />
+      <item value="Handles an access denied failure. @param request that resulted in an &lt;code&gt;AccessDeniedException&lt;code&gt; @param response so that the user agent can be advised of the failure @param accessDeniedException that caused the invocation @throws IOException in the event of an IOException @throws ServletException in the event of a ServletException" />
+      <item value="Access Denied Exception" />
+      <item value="Adds HTTP basic based authentication. All attributes have reasonable defaults making all parameters are optional. &lt;h2&gt;Security Filters&lt;h2&gt; The following Filters are populated &lt;ul&gt; &lt;li&gt;{@link BasicAuthenticationFilter}&lt;li&gt; &lt;ul&gt; &lt;h2&gt;Shared Objects Created&lt;h2&gt; &lt;ul&gt; &lt;li&gt;AuthenticationEntryPoint - populated with the {@link authenticationEntryPoint(AuthenticationEntryPoint)} (default {@link BasicAuthenticationEntryPoint})&lt;li&gt; &lt;ul&gt; &lt;h2&gt;Shared Objects Used&lt;h2&gt; The following shared objects are used: &lt;ul&gt; &lt;li&gt;{@link AuthenticationManager}&lt;li&gt; &lt;li&gt;{@link RememberMeServices}&lt;li&gt; &lt;ul&gt; @author Rob Winch @since 3.2" />
+      <item value="If &quot;authenticate&quot; was passed to this method it update the defaults as shown below: &lt;ul&gt; &lt;li&gt;authenticate GET - the login form&lt;li&gt; &lt;li&gt;authenticate POST - process the credentials and if valid authenticate the user &lt;li&gt; &lt;li&gt;authenticate?error GET - redirect here for failed authentication attempts&lt;li&gt; &lt;li&gt;authenticate?logout GET - redirect here after successfully logging out&lt;li&gt; &lt;ul&gt; @param loginPage the login page to redirect to if authentication is required (i.e. &quot;login&quot;) @return the {@link FormLoginConfigurer} for additional customization" />
       <item value="Specifies the URL to validate the credentials. @param loginProcessingUrl the URL to validate username and password @return the {@link FormLoginConfigurer} for additional customization" />
       <item value="The example below demonstrates how to configure HTTP Basic authentication for an application. The default realm is &quot;Realm&quot;, but can be customized using" />
       <item value="Bearer Token Access Denied Handler" />
@@ -46,15 +51,11 @@
       <item value="Specifies which types are eligible for component scanning. Further narrows the set of candidate components from everything in basePackages() to everything in the base packages that matches the given filter or filters" />
       <item value="Alias for the basePackages() attribute. Allows for more concise annotation declarations e.g.: @EnableJdbcRepositories(&quot;org.my.pkg&quot;) instead of @EnableJdbcRepositories(basePackages=&quot;org.my.pkg&quot;)." />
       <item value="Base packages to scan for annotated components. value() is an alias for (and mutually exclusive with) this attribute. Use basePackageClasses() for a type-safe alternative to String-based package names." />
-      <item value="pecifies which types are not eligible for component scanning." />
-      <item value="Encapsulates a Java {@link java.lang.reflect.Type}, providing access to {@link getSuperType() supertypes}, {@link getInterfaces() interfaces}, and {@link getGeneric(int...) generic parameters} along with the ability to ultimately {@link resolve() resolve} to a {@link java.lang.Class}. &lt;p&gt;{@code ResolvableTypes} may be obtained from {@link forField(Field) fields}, {@link forMethodParameter(Method, int) method parameters}, {@link forMethodReturnType(Method) method returns} or {@link forClass(Class) classes}. Most methods on this class will themselves return {@link ResolvableType ResolvableTypes}, allowing easy navigation. For example: &lt;pre class=&quot;code&quot;&gt; private HashMap&amp;lt;Integer, List&amp;lt;String&amp;gt;&amp;gt; myMap; public void example() { ResolvableType t = ResolvableType.forField(getClass().getDeclaredField(&quot;myMap&quot;)); t.getSuperType(); AbstractMap&amp;lt;Integer, List&amp;lt;String&amp;gt;&amp;gt; t.asMap(); Map&amp;lt;Integer, List&amp;lt;String&amp;gt;&amp;gt; t.getGeneric(0).resolve(); Integer t.getGeneric(1).resolve(); List t.getGeneric(1); List&amp;lt;String&amp;gt; t.resolveGeneric(1, 0); String } &lt;pre&gt;" />
-      <item value="A BeanDefinition describes a bean instance, which has property values, constructor argument values, and further information supplied by concrete implementations. This is just a minimal interface: The main intention is to allow a BeanFactoryPostProcessor to introspect and modify property values and other bean metadata." />
-      <item value="Instruments the application startup phase using steps. The core container and its infrastructure components can use the ApplicationStartup to mark steps during the application startup and collect data about the execution context or their processing time." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="48" />
-        <entry key="ENGLISH" value="48" />
+        <entry key="CHINESE" value="53" />
+        <entry key="ENGLISH" value="53" />
       </map>
     </option>
   </component>
