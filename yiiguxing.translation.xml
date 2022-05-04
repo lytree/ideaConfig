@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Spring Security will never create an {@link HttpSession} and it will never use it to obtain the {@link SecurityContext}" />
       <item value="Create an expression that tests whether its argument are equal, returning null if they are and the value of the first expression if they are not. @param x expression @param y value @return nullif expression" />
       <item value="Find a single {@link Annotation} of {@code annotationType} on the supplied {@link Class}, traversing its interfaces, annotations, and superclasses if the annotation is not &lt;em&gt;directly present&lt;em&gt; on the given class itself. &lt;p&gt;This method explicitly handles class-level annotations which are not declared as {@link java.lang.annotation.Inherited inherited} &lt;em&gt;as well as meta-annotations and annotations on interfaces&lt;em&gt;. &lt;p&gt;The algorithm operates as follows: &lt;ol&gt; &lt;li&gt;Search for the annotation on the given class and return it if found. &lt;li&gt;Recursively search through all annotations that the given class declares. &lt;li&gt;Recursively search through all interfaces that the given class declares. &lt;li&gt;Recursively search through the superclass hierarchy of the given class. &lt;ol&gt; &lt;p&gt;Note: in this context, the term &lt;em&gt;recursively&lt;em&gt; means that the search process continues by returning to step 1 with the current interface, annotation, or superclass as the class to look for annotations on. @param clazz the class to look for annotations on @param annotationType the type of annotation to look for @return the first matching annotation, or {@code null} if not found" />
       <item value="Get a single {@link Annotation} of {@code annotationType} from the supplied annotation: either the given annotation itself or a direct meta-annotation thereof. &lt;p&gt;Note that this method supports only a single level of meta-annotations. For support for arbitrary levels of meta-annotations, use one of the {@code find()} methods instead. @param annotation the Annotation to check @param annotationType the annotation type to look for, both locally and as a meta-annotation @return the first matching annotation, or {@code null} if not found @since 4.0" />
@@ -49,8 +50,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="45" />
-        <entry key="ENGLISH" value="45" />
+        <entry key="CHINESE" value="46" />
+        <entry key="ENGLISH" value="46" />
       </map>
     </option>
   </component>
