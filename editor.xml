@@ -18,6 +18,6 @@
     <option name="BIDI_TEXT_DIRECTION" value="LTR" />
   </component>
   <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="docker.inlay.hints" />
+    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
   </component>
 </application>
