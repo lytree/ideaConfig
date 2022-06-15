@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The constant for case sensitive regardless of operating system." />
+      <item value="Private workerholder that computes and tracks relative path names and their equality. We reuse the sorted relative lists when comparing directories." />
       <item value="Extracts paging information from web requests and thus allows injecting {@link Pageable} instances into controller methods. Request properties to be parsed can be configured. Default configuration uses request parameters beginning with {@link DEFAULT_PAGE_PARAMETER}{@link DEFAULT_QUALIFIER_DELIMITER}. @since 1.6 @author Oliver Gierke @author Nick Williams @author Mark Paluch @author Christoph Strobl" />
       <item value="Returns {@code true} iff &lt;i&gt;a&lt;i&gt; is a sub-collection of &lt;i&gt;b&lt;i&gt;, that is, iff the cardinality of &lt;i&gt;e&lt;i&gt; in &lt;i&gt;a&lt;i&gt; is less than or equal to the cardinality of &lt;i&gt;e&lt;i&gt; in &lt;i&gt;b&lt;i&gt;, for each element &lt;i&gt;e&lt;i&gt; in &lt;i&gt;a&lt;i&gt;. @param a the first (sub?) collection, must not be null @param b the second (super?) collection, must not be null @return {@code true} iff &lt;i&gt;a&lt;i&gt; is a sub-collection of &lt;i&gt;b&lt;i&gt; @throws NullPointerException if either collection is null @see isProperSubCollection @see CollectioncontainsAll" />
       <item value="@return The category of the constructed Logger. By default, it will use the type where the annotation is placed." />
@@ -49,13 +51,11 @@
       <item value="{@link BeanFactoryPostProcessor} used for bootstrapping processing of {@link Configuration @Configuration} classes. &lt;p&gt;Registered by default when using {@code &lt;context:annotation-config&gt;} or {@code &lt;context:component-scan&gt;}. Otherwise, may be declared manually as with any other {@link BeanFactoryPostProcessor}. &lt;p&gt;This post processor is priority-ordered as it is important that any {@link Bean @Bean} methods declared in {@code @Configuration} classes have their corresponding bean definitions registered before any other {@code BeanFactoryPostProcessor} executes." />
       <item value="registry Processors" />
       <item value="regular Post Processors" />
-      <item value="Tell the subclass to refresh the internal bean factory." />
-      <item value="Flag that indicates whether this context has been closed already." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="59" />
-        <entry key="ENGLISH" value="59" />
+        <entry key="CHINESE" value="61" />
+        <entry key="ENGLISH" value="61" />
       </map>
     </option>
   </component>
