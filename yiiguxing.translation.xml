@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="@deprecated The finalization mechanism is inherently problematic. Finalization can lead to performance issues, deadlocks, and hangs. Errors in finalizers can lead to resource leaks; there is no way to cancel finalization if it is no longer necessary; and no ordering is specified among calls to {@code finalize} methods of different objects. Furthermore, there are no guarantees regarding the timing of finalization. The {@code finalize} method might be called on a finalizable object only after an indefinite delay, if at all." />
       <item value="The constant for case sensitive regardless of operating system." />
       <item value="Private workerholder that computes and tracks relative path names and their equality. We reuse the sorted relative lists when comparing directories." />
       <item value="Extracts paging information from web requests and thus allows injecting {@link Pageable} instances into controller methods. Request properties to be parsed can be configured. Default configuration uses request parameters beginning with {@link DEFAULT_PAGE_PARAMETER}{@link DEFAULT_QUALIFIER_DELIMITER}. @since 1.6 @author Oliver Gierke @author Nick Williams @author Mark Paluch @author Christoph Strobl" />
@@ -50,12 +51,11 @@
       <item value="Propagate refresh to lifecycle processor first." />
       <item value="{@link BeanFactoryPostProcessor} used for bootstrapping processing of {@link Configuration @Configuration} classes. &lt;p&gt;Registered by default when using {@code &lt;context:annotation-config&gt;} or {@code &lt;context:component-scan&gt;}. Otherwise, may be declared manually as with any other {@link BeanFactoryPostProcessor}. &lt;p&gt;This post processor is priority-ordered as it is important that any {@link Bean @Bean} methods declared in {@code @Configuration} classes have their corresponding bean definitions registered before any other {@code BeanFactoryPostProcessor} executes." />
       <item value="registry Processors" />
-      <item value="regular Post Processors" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="61" />
-        <entry key="ENGLISH" value="61" />
+        <entry key="CHINESE" value="62" />
+        <entry key="ENGLISH" value="62" />
       </map>
     </option>
   </component>
