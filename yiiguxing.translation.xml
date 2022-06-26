@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="the separator character to use, null treated as &quot;&quot;" />
+      <item value="&lt;p&gt;Joins the elements of the provided array into a single String containing the provided list of elements.&lt;p&gt; &lt;p&gt;No delimiter is added before or after the list. A {@code null} separator is the same as an empty String (&quot;&quot;). Null objects or empty strings within the array are represented by empty strings.&lt;p&gt; &lt;pre&gt; StringUtils.join(null, ) = null StringUtils.join([], ) = &quot;&quot; StringUtils.join([null], ) = &quot;&quot; StringUtils.join([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;], &quot;--&quot;) = &quot;a--b--c&quot; StringUtils.join([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;], null) = &quot;abc&quot; StringUtils.join([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;], &quot;&quot;) = &quot;abc&quot; StringUtils.join([null, &quot;&quot;, &quot;a&quot;], ',') = &quot;,,a&quot; &lt;pre&gt; @param array the array of values to join together, may be null @param delimiter the separator character to use, null treated as &quot;&quot; @return the joined String, {@code null} if null array input" />
       <item value="Gets the contents of an {@code InputStream} as a {@code byte[]}. &lt;p&gt; This method buffers the input internally, so there is no need to use a {@code BufferedInputStream}. &lt;p&gt; @param inputStream the {@code InputStream} to read. @return the requested byte array. @throws NullPointerException if the InputStream is {@code null}. @throws IOException if an IO error occurs or reading more than {@link IntegerMAX_VALUE} occurs." />
       <item value="An output stream which triggers an event when a specified number of bytes of data have been written to it. The event can be used, for example, to throw an exception if a maximum has been reached, or to switch the underlying stream type when the threshold is exceeded. &lt;p&gt; This class overrides all {@code OutputStream} methods. However, these overrides ultimately call the corresponding methods in the underlying output stream implementation. &lt;p&gt; &lt;p&gt; NOTE: This implementation may trigger the event &lt;em&gt;before&lt;em&gt; the threshold is actually reached, since it triggers when a pending write operation would cause the threshold to be exceeded. &lt;p&gt;" />
       <item value="Abstract class for writing filtered character streams to a {@link Collection} of writers. This is in contrast to {@link FilterWriter} which is backed by a single {@link Writer}. &lt;p&gt; This abstract class provides default methods that pass all requests to the contained writers. Subclasses should likely override some of these methods. &lt;p&gt; &lt;p&gt; The class {@link Writer} defines method signatures with {@code throws} {@link IOException}, which in this class are actually {@link IOExceptionList} containing a list of {@link IOIndexedException}. &lt;p&gt; @since 2.7" />
@@ -49,13 +51,11 @@
       <item value="One or more properties of the result type on which the mapped property depends. The generated method implementation will invoke the setters of the result type ordered so that the given dependency relationship(s) are satisfied. Useful in case one property setter depends on the state of another property of the result type. &lt;p&gt; An error will be raised in case a cycle in the dependency relationships is detected. @return the dependencies of the mapped property" />
       <item value="A qualifier can be specified to aid the selection process of a suitable mapper. This is useful in case multiple mapping methods (hand written or generated) qualify and thus would result in an 'Ambiguous mapping methods found' error. A qualifier is a custom annotation and can be placed on a hand written mapper class or a method. @return the qualifiers" />
       <item value="A qualifier can be specified to aid the selection process of a suitable mapper. This is useful in case multiple mapping methods (hand written or generated) qualify and thus would result in an 'Ambiguous mapping methods found' error. A qualifier is a custom annotation and can be placed on a hand written mapper class or a method. @return the qualifiers @see Qualifier" />
-      <item value="Get post with the latest content by id. content from patch log." />
-      <item value="The actual content of the post obtained by applying patch to V1 version." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="85" />
-        <entry key="ENGLISH" value="85" />
+        <entry key="CHINESE" value="87" />
+        <entry key="ENGLISH" value="87" />
       </map>
     </option>
   </component>
