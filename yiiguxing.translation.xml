@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="Random Utils.next Float(start,end)" />
       <item value="ShouldNeverHappenException class." />
       <item value="Constructor for TcpSlave. Params: port – a int. encapsulated – a boolean." />
       <item value="Constructs a new {@code String} by decoding the specified array of bytes using the UTF-8 charset." />
@@ -53,12 +54,11 @@
       <item value="Returns the given non-null CharsetDecoder or a new default CharsetDecoder. @param charsetDecoder The CharsetDecoder to test. @return the given non-null CharsetDecoder or a new default CharsetDecoder." />
       <item value="the separator character to use, null treated as &quot;&quot;" />
       <item value="&lt;p&gt;Joins the elements of the provided array into a single String containing the provided list of elements.&lt;p&gt; &lt;p&gt;No delimiter is added before or after the list. A {@code null} separator is the same as an empty String (&quot;&quot;). Null objects or empty strings within the array are represented by empty strings.&lt;p&gt; &lt;pre&gt; StringUtils.join(null, ) = null StringUtils.join([], ) = &quot;&quot; StringUtils.join([null], ) = &quot;&quot; StringUtils.join([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;], &quot;--&quot;) = &quot;a--b--c&quot; StringUtils.join([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;], null) = &quot;abc&quot; StringUtils.join([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;], &quot;&quot;) = &quot;abc&quot; StringUtils.join([null, &quot;&quot;, &quot;a&quot;], ',') = &quot;,,a&quot; &lt;pre&gt; @param array the array of values to join together, may be null @param delimiter the separator character to use, null treated as &quot;&quot; @return the joined String, {@code null} if null array input" />
-      <item value="Gets the contents of an {@code InputStream} as a {@code byte[]}. &lt;p&gt; This method buffers the input internally, so there is no need to use a {@code BufferedInputStream}. &lt;p&gt; @param inputStream the {@code InputStream} to read. @return the requested byte array. @throws NullPointerException if the InputStream is {@code null}. @throws IOException if an IO error occurs or reading more than {@link IntegerMAX_VALUE} occurs." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="138" />
-        <entry key="ENGLISH" value="138" />
+        <entry key="CHINESE" value="139" />
+        <entry key="ENGLISH" value="139" />
       </map>
     </option>
   </component>
