@@ -4,6 +4,10 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="Thrown if {@link StandardCharsetsUTF_8} is not initialized, which should never happen since it is required by the Java platform specification." />
+      <item value="encoded bytes, or {@code null} if the input string was {@code null}" />
+      <item value="string the String to encode, may be {@code null}" />
+      <item value="Encodes the given string into a byte buffer using the UTF-8 charset, storing the result into a new byte array." />
       <item value="Random Utils.next Float(start,end)" />
       <item value="ShouldNeverHappenException class." />
       <item value="Constructor for TcpSlave. Params: port – a int. encapsulated – a boolean." />
@@ -20,7 +24,6 @@
       <item value="Encodes the given string into a sequence of bytes using the UTF-16BE charset, storing the result into a new byte array" />
       <item value="Encodes the given string into a sequence of bytes using the UTF-16 charset, storing the result into a new byte array." />
       <item value="Thrown if {@link StandardCharsetsUS_ASCII} is not initialized, which should never happen since it is required by the Java platform specification." />
-      <item value="encoded bytes, or {@code null} if the input string was {@code null}" />
       <item value="Encodes the given string into a sequence of bytes using the US-ASCII charset, storing the result into a new byte array." />
       <item value="IllegalStateException Thrown when a {@link UnsupportedEncodingException} is caught, which should never happen for a required charset name." />
       <item value="the String to encode, may be {@code null}" />
@@ -51,19 +54,16 @@
       <item value="the given non-null CharsetDecoder or a new default CharsetDecoder" />
       <item value="The CharsetDecoder to test." />
       <item value="Returns the given non-null CharsetDecoder or a new default CharsetDecoder." />
-      <item value="Returns the given non-null CharsetDecoder or a new default CharsetDecoder. @param charsetDecoder The CharsetDecoder to test. @return the given non-null CharsetDecoder or a new default CharsetDecoder." />
-      <item value="the separator character to use, null treated as &quot;&quot;" />
-      <item value="&lt;p&gt;Joins the elements of the provided array into a single String containing the provided list of elements.&lt;p&gt; &lt;p&gt;No delimiter is added before or after the list. A {@code null} separator is the same as an empty String (&quot;&quot;). Null objects or empty strings within the array are represented by empty strings.&lt;p&gt; &lt;pre&gt; StringUtils.join(null, ) = null StringUtils.join([], ) = &quot;&quot; StringUtils.join([null], ) = &quot;&quot; StringUtils.join([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;], &quot;--&quot;) = &quot;a--b--c&quot; StringUtils.join([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;], null) = &quot;abc&quot; StringUtils.join([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;], &quot;&quot;) = &quot;abc&quot; StringUtils.join([null, &quot;&quot;, &quot;a&quot;], ',') = &quot;,,a&quot; &lt;pre&gt; @param array the array of values to join together, may be null @param delimiter the separator character to use, null treated as &quot;&quot; @return the joined String, {@code null} if null array input" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="139" />
-        <entry key="ENGLISH" value="139" />
+        <entry key="CHINESE" value="144" />
+        <entry key="ENGLISH" value="144" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1656163937732" />
+    <option name="lastTrimTime" value="1656636696237" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
