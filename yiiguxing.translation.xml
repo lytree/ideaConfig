@@ -4,6 +4,12 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="More specifically, this method returns {@code true} if the {@code String} is not {@code null}, its length is greater than 0, and it contains at least one non-whitespace character." />
+      <item value="More specifically, this method returns {@code true} if the" />
+      <item value="Check whether the given {@code String} contains actual &lt;em&gt;text&lt;em&gt;." />
+      <item value="the given {@code charset} or the default Charset if {@code charset} is null." />
+      <item value="Returns the given {@code charset} or the default Charset if {@code charset} is null." />
+      <item value="a Charset or null." />
       <item value="Thrown if {@link StandardCharsetsUTF_8} is not initialized, which should never happen since it is required by the Java platform specification." />
       <item value="encoded bytes, or {@code null} if the input string was {@code null}" />
       <item value="string the String to encode, may be {@code null}" />
@@ -48,17 +54,11 @@
       <item value="Internal use only." />
       <item value="Provides utilities" />
       <item value="Provides utilities for" />
-      <item value="Package private since Apache Commons IO already provides a Charsets because {@link Charset} is in {@code java.nio.charset}." />
-      <item value="the given non-null CharsetEncoder or a new default CharsetEncoder" />
-      <item value="Returns the given non-null CharsetEncoder or a new default CharsetEncoder." />
-      <item value="the given non-null CharsetDecoder or a new default CharsetDecoder" />
-      <item value="The CharsetDecoder to test." />
-      <item value="Returns the given non-null CharsetDecoder or a new default CharsetDecoder." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="144" />
-        <entry key="ENGLISH" value="144" />
+        <entry key="CHINESE" value="155" />
+        <entry key="ENGLISH" value="155" />
       </map>
     </option>
   </component>
