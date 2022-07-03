@@ -4,6 +4,9 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="The method {@link setScale(int, RoundingMode)} should be used in preference to this legacy method." />
+      <item value="Returns a {@code BigDecimal} whose scale is the specified value, and whose unscaled value is determined by multiplying or dividing this {@code BigDecimal}'s unscaled value by the appropriate power of ten to maintain its overall value. If the scale is reduced by the operation, the unscaled value must be divided (rather than multiplied), and the value may be changed; in this case, the specified rounding mode is applied to the division. @apiNote Since BigDecimal objects are immutable, calls of this method do &lt;em&gt;not&lt;em&gt; result in the original object being modified, contrary to the usual convention of having methods named &lt;code&gt;set&lt;i&gt;X&lt;i&gt;&lt;code&gt; mutate field &lt;i&gt;{@code X}&lt;i&gt;. Instead, {@code setScale} returns an object with the proper scale; the returned object may or may not be newly allocated. @deprecated The method {@link setScale(int, RoundingMode)} should be used in preference to this legacy method. @param newScale scale of the {@code BigDecimal} value to be returned. @param roundingMode The rounding mode to apply. @return a {@code BigDecimal} whose scale is the specified value, and whose unscaled value is determined by multiplying or dividing this {@code BigDecimal}'s unscaled value by the appropriate power of ten to maintain its overall value. @throws ArithmeticException if {@code roundingMode==ROUND_UNNECESSARY} and the specified scaling operation would require rounding. @throws IllegalArgumentException if {@code roundingMode} does not represent a valid rounding mode. @see ROUND_UP @see ROUND_DOWN @see ROUND_CEILING @see ROUND_FLOOR @see ROUND_HALF_UP @see ROUND_HALF_DOWN @see ROUND_HALF_EVEN @see ROUND_UNNECESSARY" />
+      <item value="The annotated element must be {@code null}. Accepts any type." />
       <item value="Returns the minimum value in an array." />
       <item value="the minimum value in the array" />
       <item value="an array, must not be null or empty" />
@@ -51,14 +54,11 @@
       <item value="Check whether the given {@code String} contains actual" />
       <item value="{@code true} if the {@code CharSequence} is not {@code null}, its length is greater than 0, and it does not contain whitespace only" />
       <item value="More specifically, this method returns" />
-      <item value="Check whether the given {@code CharSequence} contains actual &lt;em&gt;text&lt;em&gt;." />
-      <item value="The maximum size to which the padding constant(s) can expand." />
-      <item value="Pattern" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="163" />
-        <entry key="ENGLISH" value="163" />
+        <entry key="CHINESE" value="166" />
+        <entry key="ENGLISH" value="166" />
       </map>
     </option>
   </component>
