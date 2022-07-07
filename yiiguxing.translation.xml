@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="A channel that sends Messages to each of its subscribers. Author: Mark Fisher, Oleg Zhurakousky, Gary Russell, Artem Bilan, Trung Pham" />
       <item value="Simple contract for handling a Message." />
       <item value="Defines methods for sending messages." />
       <item value="A message implementation that is produced by an advice after successful message handling. Contains the result of the expression evaluation in the payload and the original message that the advice passed to the handler." />
@@ -53,12 +54,11 @@
       <item value="method when the encoding is required to be in the JRE." />
       <item value="This method catches {@link UnsupportedEncodingException} and rethrows it as {@link IllegalStateException}, which should never happen for a required charset name." />
       <item value="Encodes the given string into a sequence of bytes using the named charset, storing the result into a new byte array." />
-      <item value="NullPointerException Thrown if {@link StandardCharsetsISO_8859_1} is not initialized, which should never happen since it is required by the Java platform specification." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="172" />
-        <entry key="ENGLISH" value="172" />
+        <entry key="CHINESE" value="173" />
+        <entry key="ENGLISH" value="173" />
       </map>
     </option>
   </component>
