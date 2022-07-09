@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="Original content,not format." />
       <item value="Deprecated use the Little Endian accessors, e.g. getShortLE, getIntLE instead of creating a buffer with swapped endianness." />
       <item value="A channel that sends Messages to each of its subscribers. Author: Mark Fisher, Oleg Zhurakousky, Gary Russell, Artem Bilan, Trung Pham" />
       <item value="Simple contract for handling a Message." />
@@ -53,12 +54,11 @@
       <item value="the String to encode, may be {@code null}" />
       <item value="The name of a required {@link java.nio.charset.Charset}" />
       <item value="method when the encoding is required to be in the JRE." />
-      <item value="This method catches {@link UnsupportedEncodingException} and rethrows it as {@link IllegalStateException}, which should never happen for a required charset name." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="174" />
-        <entry key="ENGLISH" value="174" />
+        <entry key="CHINESE" value="175" />
+        <entry key="ENGLISH" value="175" />
       </map>
     </option>
   </component>
