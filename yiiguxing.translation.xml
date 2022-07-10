@@ -4,6 +4,8 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="Recycle status." />
+      <item value="Intimate status" />
       <item value="Original content,not format." />
       <item value="Deprecated use the Little Endian accessors, e.g. getShortLE, getIntLE instead of creating a buffer with swapped endianness." />
       <item value="A channel that sends Messages to each of its subscribers. Author: Mark Fisher, Oleg Zhurakousky, Gary Russell, Artem Bilan, Trung Pham" />
@@ -52,13 +54,11 @@
       <item value="Encodes the given string into a sequence of bytes using the US-ASCII charset, storing the result into a new byte array." />
       <item value="IllegalStateException Thrown when a {@link UnsupportedEncodingException} is caught, which should never happen for a required charset name." />
       <item value="the String to encode, may be {@code null}" />
-      <item value="The name of a required {@link java.nio.charset.Charset}" />
-      <item value="method when the encoding is required to be in the JRE." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="175" />
-        <entry key="ENGLISH" value="175" />
+        <entry key="CHINESE" value="177" />
+        <entry key="ENGLISH" value="177" />
       </map>
     </option>
   </component>
