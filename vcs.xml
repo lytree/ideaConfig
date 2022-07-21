@@ -70,9 +70,13 @@
           <option name="url" value="http://10.100.102.177:3000/tool/Dilution.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/nickliuchao/decorator.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\data" />
+    <option name="cloneParentDir" value="D:\Code" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ID_ORDER">
