@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="Helper class used to resolve String values (either JSON Object field names or regular String values) into Java Enum instances." />
       <item value="Abbreviates a String using ellipses. This will turn &quot;Now is the time for all good men&quot; into &quot;Now is the time for...&quot;" />
       <item value="Performance testing notes (JDK 1.4, Jul03, scolebourne) Whitespace: Character.isWhitespace() is faster than WHITESPACE.indexOf() where WHITESPACE is a string of all whitespace characters Character access: String.charAt(n) versus toCharArray(), then array[n] String.charAt(n) is about 15% worse for a 10K string They are about equal for a length 50 string String.charAt(n) is about 4 times better for a length 3 string String.charAt(n) is best bet overall Append: String.concat about twice as fast as StringBuffer.append (not sure who tested this)" />
       <item value="Unwraps a given string from anther string." />
@@ -54,12 +55,11 @@
       <item value="&lt;p&gt;{@code Fraction} is a {@code Number} implementation that stores fractions accurately.&lt;p&gt; &lt;p&gt;This class is immutable, and interoperable with most methods that accept a {@code Number}.&lt;p&gt; &lt;p&gt;Note that this class is intended for common use cases, it is &lt;i&gt;int&lt;i&gt; based and thus suffers from various overflow issues. For a BigInteger based equivalent, please see the Commons Math BigFraction class. &lt;p&gt;" />
       <item value="More specifically, this method returns {@code true} if the {@code String} is not {@code null}, its length is greater than 0, and it contains at least one non-whitespace character." />
       <item value="More specifically, this method returns {@code true} if the" />
-      <item value="Check whether the given {@code String} contains actual &lt;em&gt;text&lt;em&gt;." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="206" />
-        <entry key="ENGLISH" value="202" />
+        <entry key="CHINESE" value="207" />
+        <entry key="ENGLISH" value="203" />
       </map>
     </option>
   </component>
