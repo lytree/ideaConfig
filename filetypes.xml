@@ -2,9 +2,6 @@
   <component name="FileTypeManager" version="18">
     <ignoreFiles list=".git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc" />
     <extensionMap>
-      <mapping ext="space.kts" type="Kotlin" />
-      <mapping ext="gradle.kts" type="Kotlin" />
-      <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="tsconfig.lib.json" type="PLAIN_TEXT" />
       <mapping ext="time" type="PLAIN_TEXT" />
       <mapping ext="service" type="PLAIN_TEXT" />
@@ -18,6 +15,9 @@
       <removed_mapping ext="klib" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping pattern="tsconfig.lib.json" approved="true" type="tsconfig" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="space.kts" type="Kotlin" />
     </extensionMap>
   </component>
 </application>
