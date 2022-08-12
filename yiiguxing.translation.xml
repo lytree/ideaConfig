@@ -5,6 +5,17 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="Returns whether a given set of modifiers implies package access." />
+      <item value="XXX Default access superclass workaround." />
+      <item value="Contains common code for working with {@link java.lang.reflect.Method Methods}{@link java.lang.reflect.Constructor Constructors}, extracted and refactored from {@link MethodUtils} when it was imported from Commons BeanUtils." />
+      <item value="Gets all class level public methods of the given class that are annotated with the given annotation." />
+      <item value="Sort methods by signature to force deterministic result" />
+      <item value="Finds an accessible method that matches the given name and has compatible parameters. Compatible parameters mean that every method parameter is assignable from the given parameters. In other words, it finds a method with the given name that will take the parameters given." />
+      <item value="Invokes a named method whose parameter type matches the object type." />
+      <item value="Invokes a method with no parameters." />
+      <item value="the declared array of method parameter types" />
+      <item value="Given an arguments array passed to a varargs method, return an array of arguments in the canonical form, i.e. an array with the declared number of parameters, and whose last parameter is an array of the varargs type." />
+      <item value="Invokes a named method without parameters." />
       <item value="Indicates that the persistence provider should pick an appropriate strategy for the particular database. The &lt;code&gt;AUTO&lt;code&gt; generation strategy may expect a database resource to exist, or it may attempt to create one. A vendor may provide documentation on how to create such resources in the event that it does not support schema generation or cannot create the schema resource at runtime." />
       <item value="Indicates that the persistence provider must assign primary keys for the entity using a database sequence." />
       <item value="Indicates that the persistence provider must assign primary keys for the entity using an underlying database table to ensure uniqueness." />
@@ -44,22 +55,11 @@
       <item value="Simple contract for handling a Message." />
       <item value="Defines methods for sending messages." />
       <item value="A message implementation that is produced by an advice after successful message handling. Contains the result of the expression evaluation in the payload and the original message that the advice passed to the handler." />
-      <item value="ChannelOutboundHandlerAdapter which encodes message in a stream-like fashion from one message to an ByteBuf. Example implementation which encodes Integers to a ByteBuf. public class IntegerEncoder extends MessageToByteEncoder&lt;Integer&gt; { @Override public void encode(ChannelHandlerContext ctx, Integer msg, ByteBuf out) throws Exception { out.writeInt(msg); } }" />
-      <item value="An encoder that prepends the length of the message. The length value is prepended as a binary form. For example, LengthFieldPrepender(2) will encode the following 12-bytes string: +----------------+ | &quot;HELLO, WORLD&quot; | +----------------+ into the following: +--------+----------------+ + 0x000C | &quot;HELLO, WORLD&quot; | +--------+----------------+ If you turned on the lengthIncludesLengthFieldLength flag in the constructor, the encoded data would look like the following (12 (original data) + 2 (prepended data) = 14 (0xE)): +--------+----------------+ + 0x000E | &quot;HELLO, WORLD&quot; | +--------+----------------+" />
-      <item value="daemon" />
-      <item value="The method {@link setScale(int, RoundingMode)} should be used in preference to this legacy method." />
-      <item value="Returns a {@code BigDecimal} whose scale is the specified value, and whose unscaled value is determined by multiplying or dividing this {@code BigDecimal}'s unscaled value by the appropriate power of ten to maintain its overall value. If the scale is reduced by the operation, the unscaled value must be divided (rather than multiplied), and the value may be changed; in this case, the specified rounding mode is applied to the division. @apiNote Since BigDecimal objects are immutable, calls of this method do &lt;em&gt;not&lt;em&gt; result in the original object being modified, contrary to the usual convention of having methods named &lt;code&gt;set&lt;i&gt;X&lt;i&gt;&lt;code&gt; mutate field &lt;i&gt;{@code X}&lt;i&gt;. Instead, {@code setScale} returns an object with the proper scale; the returned object may or may not be newly allocated. @deprecated The method {@link setScale(int, RoundingMode)} should be used in preference to this legacy method. @param newScale scale of the {@code BigDecimal} value to be returned. @param roundingMode The rounding mode to apply. @return a {@code BigDecimal} whose scale is the specified value, and whose unscaled value is determined by multiplying or dividing this {@code BigDecimal}'s unscaled value by the appropriate power of ten to maintain its overall value. @throws ArithmeticException if {@code roundingMode==ROUND_UNNECESSARY} and the specified scaling operation would require rounding. @throws IllegalArgumentException if {@code roundingMode} does not represent a valid rounding mode. @see ROUND_UP @see ROUND_DOWN @see ROUND_CEILING @see ROUND_FLOOR @see ROUND_HALF_UP @see ROUND_HALF_DOWN @see ROUND_HALF_EVEN @see ROUND_UNNECESSARY" />
-      <item value="The annotated element must be {@code null}. Accepts any type." />
-      <item value="Returns the minimum value in an array." />
-      <item value="the minimum value in the array" />
-      <item value="an array, must not be null or empty" />
-      <item value="Provides IEEE-754r variants of NumberUtils methods." />
-      <item value="Provides extra functionality for Java Number classes." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="212" />
-        <entry key="ENGLISH" value="208" />
+        <entry key="CHINESE" value="223" />
+        <entry key="ENGLISH" value="219" />
       </map>
     </option>
   </component>
