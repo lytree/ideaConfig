@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="Guaranteed to throw an exception and leave the underlying data unmodified." />
       <item value="Implementation of an {@link Optional} not containing a reference" />
       <item value="Returns a predicate that evaluates to {@code true} if the {@code CharSequence} being tested contains any match for the given regular expression pattern. The test used is equivalent to {@code pattern.matcher(arg).find()}" />
       <item value="Provides static methods for working with {@code Collection} instances." />
@@ -54,12 +55,11 @@
       <item value="&lt;p&gt;Operations to assist when working with a {@link Locale}.&lt;p&gt; &lt;p&gt;This class tries to handle {@code null} input gracefully. An exception will not be thrown for a {@code null} input. Each method documents its behavior in more detail.&lt;p&gt;" />
       <item value="Recycle status." />
       <item value="Original content,not format." />
-      <item value="Deprecated use the Little Endian accessors, e.g. getShortLE, getIntLE instead of creating a buffer with swapped endianness." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="227" />
-        <entry key="ENGLISH" value="223" />
+        <entry key="CHINESE" value="228" />
+        <entry key="ENGLISH" value="224" />
       </map>
     </option>
   </component>
