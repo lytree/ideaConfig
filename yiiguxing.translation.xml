@@ -5,6 +5,9 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="Implementation of an {@link Optional} not containing a reference" />
+      <item value="Returns a predicate that evaluates to {@code true} if the {@code CharSequence} being tested contains any match for the given regular expression pattern. The test used is equivalent to {@code pattern.matcher(arg).find()}" />
+      <item value="Provides static methods for working with {@code Collection} instances." />
       <item value="A set which forwards all its method calls to another set. Subclasses should override one or more methods to modify the behavior of the backing set as desired per the &lt;a href=&quot;http:en.wikipedia.orgwikiDecorator_pattern&quot;&gt;decorator pattern&lt;a&gt;" />
       <item value="Returns whether a given set of modifiers implies package access." />
       <item value="XXX Default access superclass workaround." />
@@ -52,14 +55,11 @@
       <item value="Recycle status." />
       <item value="Original content,not format." />
       <item value="Deprecated use the Little Endian accessors, e.g. getShortLE, getIntLE instead of creating a buffer with swapped endianness." />
-      <item value="A channel that sends Messages to each of its subscribers. Author: Mark Fisher, Oleg Zhurakousky, Gary Russell, Artem Bilan, Trung Pham" />
-      <item value="Simple contract for handling a Message." />
-      <item value="Defines methods for sending messages." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="224" />
-        <entry key="ENGLISH" value="220" />
+        <entry key="CHINESE" value="227" />
+        <entry key="ENGLISH" value="223" />
       </map>
     </option>
   </component>
