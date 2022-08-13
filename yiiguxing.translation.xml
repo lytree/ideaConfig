@@ -5,6 +5,9 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="Determines whether a BMP character is lower case according to {@linkplain CharacterisLowerCase(char) Java's definition}. @since 19.0 (since 1.0 as constant {@code JAVA_LOWER_CASE}) @deprecated Some lowercase characters are supplementary characters; see the class documentation." />
+      <item value="Many digits are supplementary characters; see the class documentation." />
+      <item value="Methods factored out so that they can be emulated differently in GWT." />
       <item value="Utility class for converting between various ASCII case formats. Behavior is undefined for non-ASCII input." />
       <item value="A utility method to perform unchecked casts to suppress errors produced by nullness analyses" />
       <item value="A class for arithmetic on values of type {@code int}. Where possible, methods are defined and named analogously to their {@code BigInteger} counterparts." />
@@ -52,14 +55,11 @@
       <item value="his method is a wrapper around {@link LocalegetAvailableLocales()}. It is more efficient, as the JDK method must create a new array each time it is called." />
       <item value="Obtains an unmodifiable set of installed locales." />
       <item value="&lt;p&gt;Obtains an unmodifiable list of installed locales.&lt;p&gt; &lt;p&gt;This method is a wrapper around {@link LocalegetAvailableLocales()}. It is more efficient, as the JDK method must create a new array each time it is called.&lt;p&gt; @return the unmodifiable list of available locales" />
-      <item value="Concurrent map of country locales by language." />
-      <item value="Concurrent map of language locales by country." />
-      <item value="Unmodifiable set of available locales." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="233" />
-        <entry key="ENGLISH" value="229" />
+        <entry key="CHINESE" value="236" />
+        <entry key="ENGLISH" value="232" />
       </map>
     </option>
   </component>
