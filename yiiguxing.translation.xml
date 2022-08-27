@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="Ensures the truth of an expression involving the state of the calling instance, but not involving a" />
+      <item value="Ensures the truth of an expression involving one or more parameters to the calling method." />
       <item value="Annotation that indicates a variable has a weak relationship to its owner. Author: Tom Ball" />
       <item value="Determines whether a BMP character is lower case according to {@linkplain CharacterisLowerCase(char) Java's definition}. @since 19.0 (since 1.0 as constant {@code JAVA_LOWER_CASE}) @deprecated Some lowercase characters are supplementary characters; see the class documentation." />
       <item value="Many digits are supplementary characters; see the class documentation." />
@@ -53,13 +55,11 @@
       <item value="This method takes a language code and searches to find the countries available for that language. Variant locales are removed." />
       <item value="Obtains the list of countries supported for a given language." />
       <item value="the unmodifiable set of available locales" />
-      <item value="his method is a wrapper around {@link LocalegetAvailableLocales()}. It is more efficient, as the JDK method must create a new array each time it is called." />
-      <item value="Obtains an unmodifiable set of installed locales." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="237" />
-        <entry key="ENGLISH" value="233" />
+        <entry key="CHINESE" value="239" />
+        <entry key="ENGLISH" value="235" />
       </map>
     </option>
   </component>
