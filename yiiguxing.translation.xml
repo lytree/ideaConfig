@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="Helper method to determine if an {@link Object} array contains a {@link Throwable} as last element" />
       <item value="contributors: lizongbo: proposed special treatment of array parameter values Joern Huxhorn: pointed out double[] omission, suggested deep array copy" />
       <item value="Ensures the truth of an expression involving the state of the calling instance, but not involving a" />
       <item value="Ensures the truth of an expression involving one or more parameters to the calling method." />
@@ -54,12 +55,11 @@
       <item value="an unmodifiable List of Locale objects, not null" />
       <item value="the 2 letter language code, null returns empty" />
       <item value="This method takes a language code and searches to find the countries available for that language. Variant locales are removed." />
-      <item value="Obtains the list of countries supported for a given language." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="240" />
-        <entry key="ENGLISH" value="236" />
+        <entry key="CHINESE" value="241" />
+        <entry key="ENGLISH" value="237" />
       </map>
     </option>
   </component>
