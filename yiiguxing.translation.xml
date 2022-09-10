@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="Constructs a new runtime exception with the specified detail message, cause, suppression enabled or disabled, and writable stack trace enabled or disabled" />
       <item value="SQLite use table creation sql to define unique constraints." />
       <item value="This example uses docx4j's internal capabilities to update a ToC. For page numbers, you'll need export-fo on your classpath; see https:github.complutextdocx4jtreeVERSION_11_4_6docx4j-samples-docx-export-fo Note: If you have Word available, you can use it to populate (andor update) the ToC. That uses a different code path; please see the TocOperations example in docx4j-samples-export-documents4j-local" />
       <item value="This example uses docx4j's internal capabilities to generate a ToC. To add indicative page numbers, put export-fo on your classpath; see https:github.complutextdocx4jtreeVERSION_11_4_6docx4j-samples-docx-export-fo Note: If you have Word available, you can use it to populate (andor update) the ToC. That uses a different code path; please see the TocOperations example in docx4j-samples-export-documents4j-local" />
@@ -54,12 +55,11 @@
       <item value="the String to check" />
       <item value="Checks whether the given String is a ISO 3166 alpha-2 country code." />
       <item value="true if the locale is a known locale" />
-      <item value="the Locale object to check if it is available" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="245" />
-        <entry key="ENGLISH" value="241" />
+        <entry key="CHINESE" value="246" />
+        <entry key="ENGLISH" value="242" />
       </map>
     </option>
   </component>
