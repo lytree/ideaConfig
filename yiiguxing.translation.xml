@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="Base64's mode is set to URL-SAFE." />
+      <item value="This is a copy of the STANDARD_ENCODE_TABLE above, but with + and changed to - and _ to make the encoded Base64 results more URL-SAFE. This table is only used when the" />
       <item value="An {@link ImmutableAsList} implementation specialized for when the delegate collection is already backed by an {@code ImmutableList} or array." />
       <item value="Constructs a new runtime exception with the specified detail message, cause, suppression enabled or disabled, and writable stack trace enabled or disabled" />
       <item value="SQLite use table creation sql to define unique constraints." />
@@ -53,13 +55,11 @@
       <item value="if the given String is a ISO 639 compliant language code." />
       <item value="Checks whether the given String is a ISO 639 compliant language code." />
       <item value="is the given String is a ISO 3166 compliant country code." />
-      <item value="the String to check" />
-      <item value="Checks whether the given String is a ISO 3166 alpha-2 country code." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="247" />
-        <entry key="ENGLISH" value="243" />
+        <entry key="CHINESE" value="249" />
+        <entry key="ENGLISH" value="245" />
       </map>
     </option>
   </component>
