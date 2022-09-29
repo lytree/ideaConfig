@@ -17,6 +17,7 @@
   </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="" />
+    <option name="SHOW_INSPECTION_WIDGET" value="false" />
     <option name="SHOW_BREADCRUMBS" value="false" />
     <option name="BIDI_TEXT_DIRECTION" value="LTR" />
   </component>
