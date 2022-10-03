@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="Actually invoke the handler." />
       <item value="Byte Order Mark (BOM) representation" />
       <item value="considering having these implement a VisitablePredicate" />
       <item value="automatic null-handling." />
@@ -54,12 +55,11 @@
       <item value="Abstract base class for auditable entities. Stores the audition values in persistent fields." />
       <item value="Intimate status" />
       <item value="Helper class used to resolve String values (either JSON Object field names or regular String values) into Java Enum instances." />
-      <item value="Abbreviates a String using ellipses. This will turn &quot;Now is the time for all good men&quot; into &quot;Now is the time for...&quot;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="256" />
-        <entry key="ENGLISH" value="252" />
+        <entry key="CHINESE" value="257" />
+        <entry key="ENGLISH" value="253" />
       </map>
     </option>
   </component>
