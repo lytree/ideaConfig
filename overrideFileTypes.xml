@@ -1,0 +1,5 @@
+<application>
+  <component name="OverrideFileTypeManager">
+    <file url="file://D:/data/clypg_mqtt/target/clypg_mqtt-0.0.1-SNAPSHOT.jar" value="AndroidProfilerMemoryAllocation" />
+  </component>
+</application>

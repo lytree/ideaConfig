@@ -1,0 +1,88 @@
+<application>
+  <component name="AppStorage">
+    <option name="lastReplacementTargetLanguage" value="CHINESE" />
+    <option name="newTranslationDialogWidth" value="598" />
+    <option name="newTranslationDialogX" value="684" />
+    <option name="newTranslationDialogY" value="440" />
+    <histories>
+      <item value="Byte Order Mark (BOM) representation" />
+      <item value="considering having these implement a VisitablePredicate" />
+      <item value="automatic null-handling." />
+      <item value="TODO(kevinb): we shouldn't be checking for a null result at runtime. Assert?" />
+      <item value="Accepts a {@code @Nullable T} and returns a plain {@code T}, without performing any check that that conversion is safe. &lt;p&gt;This method is intended to help with usages of type parameters that have {@linkplain ParametricNullness parametric nullness}. If a type parameter instead ranges over only non-null types (or if the type is a non-variable type, like {@code String}), then code should almost never use this method, preferring instead to call {@code requireNonNull} so as to benefit from its runtime check. &lt;p&gt;An example use case for this method is in implementing an {@code Iterator&lt;T&gt;} whose {@code next} field is lazily initialized. The type of that field would be {@code @Nullable T}, and the code would be responsible for populating a &quot;real&quot; {@code T} (which might still be the value {@code null}!) before returning it to callers. Depending on how the code is structured, a nullness analysis might not understand that the field has been populated. To avoid that problem without having to add {@code @SuppressWarnings}, the code can call this method. &lt;p&gt;Why &lt;i&gt;not&lt;i&gt; just add {@code SuppressWarnings}? The problem is that this method is typically useful for {@code return} statements. That leaves the code with two options: Either add the suppression to the whole method (which turns off checking for a large section of code), or extract a variable, and put the suppression on that. However, a local variable typically doesn't work: Because nullness analyses typically infer the nullness of local variables, there's no way to assign a {@code @Nullable T} to a field {@code T foo;} and instruct the analysis that that means &quot;plain {@code T}&quot; rather than the inferred type {@code @Nullable T}. (Even if supported added {@code @NonNull}, that would not help, since the problem case addressed by this method is the case in which {@code T} has parametric nullness -- and thus its value may be legitimately {@code null}.)" />
+      <item value="An EOFException could be raised if the broker processes the DISCONNECT and ends the socket before we complete. As such, only shutdown the connection if we're not already shutting down." />
+      <item value="NOSONAR - false positive - called from synchronized block" />
+      <item value="Base64's mode is set to URL-SAFE." />
+      <item value="This is a copy of the STANDARD_ENCODE_TABLE above, but with + and changed to - and _ to make the encoded Base64 results more URL-SAFE. This table is only used when the" />
+      <item value="An {@link ImmutableAsList} implementation specialized for when the delegate collection is already backed by an {@code ImmutableList} or array." />
+      <item value="Constructs a new runtime exception with the specified detail message, cause, suppression enabled or disabled, and writable stack trace enabled or disabled" />
+      <item value="SQLite use table creation sql to define unique constraints." />
+      <item value="This example uses docx4j's internal capabilities to update a ToC. For page numbers, you'll need export-fo on your classpath; see https:github.complutextdocx4jtreeVERSION_11_4_6docx4j-samples-docx-export-fo Note: If you have Word available, you can use it to populate (andor update) the ToC. That uses a different code path; please see the TocOperations example in docx4j-samples-export-documents4j-local" />
+      <item value="This example uses docx4j's internal capabilities to generate a ToC. To add indicative page numbers, put export-fo on your classpath; see https:github.complutextdocx4jtreeVERSION_11_4_6docx4j-samples-docx-export-fo Note: If you have Word available, you can use it to populate (andor update) the ToC. That uses a different code path; please see the TocOperations example in docx4j-samples-export-documents4j-local" />
+      <item value="Helper method to get all but the last element of an array" />
+      <item value="Helper method to determine if an {@link Object} array contains a {@link Throwable} as last element" />
+      <item value="contributors: lizongbo: proposed special treatment of array parameter values Joern Huxhorn: pointed out double[] omission, suggested deep array copy" />
+      <item value="Ensures the truth of an expression involving the state of the calling instance, but not involving a" />
+      <item value="Ensures the truth of an expression involving one or more parameters to the calling method." />
+      <item value="Annotation that indicates a variable has a weak relationship to its owner. Author: Tom Ball" />
+      <item value="Determines whether a BMP character is lower case according to {@linkplain CharacterisLowerCase(char) Java's definition}. @since 19.0 (since 1.0 as constant {@code JAVA_LOWER_CASE}) @deprecated Some lowercase characters are supplementary characters; see the class documentation." />
+      <item value="Many digits are supplementary characters; see the class documentation." />
+      <item value="Methods factored out so that they can be emulated differently in GWT." />
+      <item value="Utility class for converting between various ASCII case formats. Behavior is undefined for non-ASCII input." />
+      <item value="A utility method to perform unchecked casts to suppress errors produced by nullness analyses" />
+      <item value="A class for arithmetic on values of type {@code int}. Where possible, methods are defined and named analogously to their {@code BigInteger} counterparts." />
+      <item value="&lt;p&gt;The implementations of many methods in this class are based on material from Henry S. Warren, Jr.'s &lt;i&gt;Hacker's Delight&lt;i&gt;, (Addison Wesley, 2002)." />
+      <item value="Guaranteed to throw an exception and leave the underlying data unmodified." />
+      <item value="Implementation of an {@link Optional} not containing a reference" />
+      <item value="Returns a predicate that evaluates to {@code true} if the {@code CharSequence} being tested contains any match for the given regular expression pattern. The test used is equivalent to {@code pattern.matcher(arg).find()}" />
+      <item value="Provides static methods for working with {@code Collection} instances." />
+      <item value="A set which forwards all its method calls to another set. Subclasses should override one or more methods to modify the behavior of the backing set as desired per the &lt;a href=&quot;http:en.wikipedia.orgwikiDecorator_pattern&quot;&gt;decorator pattern&lt;a&gt;" />
+      <item value="Returns whether a given set of modifiers implies package access." />
+      <item value="XXX Default access superclass workaround." />
+      <item value="Contains common code for working with {@link java.lang.reflect.Method Methods}{@link java.lang.reflect.Constructor Constructors}, extracted and refactored from {@link MethodUtils} when it was imported from Commons BeanUtils." />
+      <item value="Gets all class level public methods of the given class that are annotated with the given annotation." />
+      <item value="Sort methods by signature to force deterministic result" />
+      <item value="Finds an accessible method that matches the given name and has compatible parameters. Compatible parameters mean that every method parameter is assignable from the given parameters. In other words, it finds a method with the given name that will take the parameters given." />
+      <item value="Invokes a named method whose parameter type matches the object type." />
+      <item value="Invokes a method with no parameters." />
+      <item value="the declared array of method parameter types" />
+      <item value="Given an arguments array passed to a varargs method, return an array of arguments in the canonical form, i.e. an array with the declared number of parameters, and whose last parameter is an array of the varargs type." />
+      <item value="Invokes a named method without parameters." />
+      <item value="Indicates that the persistence provider should pick an appropriate strategy for the particular database. The &lt;code&gt;AUTO&lt;code&gt; generation strategy may expect a database resource to exist, or it may attempt to create one. A vendor may provide documentation on how to create such resources in the event that it does not support schema generation or cannot create the schema resource at runtime." />
+      <item value="Indicates that the persistence provider must assign primary keys for the entity using a database sequence." />
+      <item value="Indicates that the persistence provider must assign primary keys for the entity using an underlying database table to ensure uniqueness." />
+      <item value="Abstract base class for auditable entities. Stores the audition values in persistent fields." />
+      <item value="Intimate status" />
+      <item value="Helper class used to resolve String values (either JSON Object field names or regular String values) into Java Enum instances." />
+      <item value="Abbreviates a String using ellipses. This will turn &quot;Now is the time for all good men&quot; into &quot;Now is the time for...&quot;" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="256" />
+        <entry key="ENGLISH" value="252" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1664439772694" />
+  </component>
+  <component name="Settings">
+    <option name="baiduTranslateSettings">
+      <app-key>
+        <option name="appId" value="20190412000287251" />
+      </app-key>
+    </option>
+    <option name="phoneticFontFamily" value="Source Code Pro Medium" />
+    <option name="primaryFontFamily" value="Microsoft YaHei UI" />
+    <option name="showReplacementActionInContextMenu" value="true" />
+    <option name="targetLanguageSelection" value="PRIMARY_LANGUAGE" />
+    <option name="translateDocumentation" value="true" />
+    <option name="translator" value="YOUDAO" />
+    <option name="youdaoTranslateSettings">
+      <youdao-translate>
+        <option name="appId" value="3289501515931655" />
+        <option name="primaryLanguage" value="CHINESE" />
+      </youdao-translate>
+    </option>
+  </component>
+</application>
