@@ -6,6 +6,8 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="tsconfig.lib.json" type="PLAIN_TEXT" />
+      <mapping ext="serializer" type="PLAIN_TEXT" />
+      <mapping ext="loadbalance" type="PLAIN_TEXT" />
       <mapping ext="time" type="PLAIN_TEXT" />
       <mapping ext="service" type="PLAIN_TEXT" />
       <mapping ext="filter" type="PLAIN_TEXT" />
