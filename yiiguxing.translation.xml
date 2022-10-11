@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="Automatic reconnect is set so make sure comms is in resting state" />
       <item value="Actually invoke the handler." />
       <item value="Byte Order Mark (BOM) representation" />
       <item value="considering having these implement a VisitablePredicate" />
@@ -54,12 +55,11 @@
       <item value="Indicates that the persistence provider must assign primary keys for the entity using an underlying database table to ensure uniqueness." />
       <item value="Abstract base class for auditable entities. Stores the audition values in persistent fields." />
       <item value="Intimate status" />
-      <item value="Helper class used to resolve String values (either JSON Object field names or regular String values) into Java Enum instances." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="257" />
-        <entry key="ENGLISH" value="253" />
+        <entry key="CHINESE" value="258" />
+        <entry key="ENGLISH" value="254" />
       </map>
     </option>
   </component>
