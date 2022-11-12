@@ -9,9 +9,11 @@
       <mapping ext="serializer" type="PLAIN_TEXT" />
       <mapping ext="loadbalance" type="PLAIN_TEXT" />
       <mapping ext="time" type="PLAIN_TEXT" />
+      <mapping ext="servicediscoveryfactory" type="PLAIN_TEXT" />
       <mapping ext="service" type="PLAIN_TEXT" />
       <mapping ext="filter" type="PLAIN_TEXT" />
       <mapping ext="s" type="PLAIN_TEXT" />
+      <mapping ext="registryfactory" type="PLAIN_TEXT" />
       <mapping ext="klib" type="PLAIN_TEXT" />
       <mapping pattern="CategoryMapperXml" type="XML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
