@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="684" />
     <option name="newTranslationDialogY" value="440" />
     <histories>
+      <item value="Creates a new instance. @param maxFrameLength the maximum length of the frame. If the length of the frame is greater than this value, {@link TooLongFrameException} will be thrown. @param lengthFieldOffset the offset of the length field @param lengthFieldLength the length of the length field @param lengthAdjustment the compensation value to add to the value of the length field @param initialBytesToStrip the number of first bytes to strip out from the decoded frame @param failFast If &lt;tt&gt;true&lt;tt&gt;, a {@link TooLongFrameException} is thrown as soon as the decoder notices the length of the frame will exceed &lt;tt&gt;maxFrameLength&lt;tt&gt; regardless of whether the entire frame has been read. If &lt;tt&gt;false&lt;tt&gt;, a {@link TooLongFrameException} is thrown after the entire frame that exceeds &lt;tt&gt;maxFrameLength&lt;tt&gt; has been read." />
       <item value="Automatic reconnect is set so make sure comms is in resting state" />
       <item value="Actually invoke the handler." />
       <item value="Byte Order Mark (BOM) representation" />
@@ -54,7 +55,6 @@
       <item value="Indicates that the persistence provider must assign primary keys for the entity using a database sequence." />
       <item value="Indicates that the persistence provider must assign primary keys for the entity using an underlying database table to ensure uniqueness." />
       <item value="Abstract base class for auditable entities. Stores the audition values in persistent fields." />
-      <item value="Intimate status" />
     </histories>
     <option name="languageScores">
       <map>
@@ -77,6 +77,7 @@
     <option name="showReplacementActionInContextMenu" value="true" />
     <option name="targetLanguageSelection" value="PRIMARY_LANGUAGE" />
     <option name="translateDocumentation" value="true" />
+    <option name="translator" value="YOUDAO" />
     <option name="youdaoTranslateSettings">
       <youdao-translate>
         <option name="appId" value="3289501515931655" />
