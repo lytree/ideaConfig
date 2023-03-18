@@ -86,13 +86,17 @@
     </option>
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1677299513229" />
+    <option name="lastTrimTime" value="1679116847940" />
   </component>
   <component name="Translation.Settings">
     <option name="translator" value="MICROSOFT" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="TODO ought to implement Comparator&lt;String&gt; but that's not possible whilst maintaining binary compatibility." />
+      <item value="Defines common decoding methods for byte array decoders." />
+      <item value="canonicalize Url" />
+      <item value="Borrowed from Jsoup." />
       <item value="Returns the {@link Field} in which {@code enumValue} is defined. For example, to get the {@code Description} annotation on the {@code GOLF} constant of enum {@code Sport}, use {@code Enums.getField(Sport.GOLF).getAnnotation(Description.class)}." />
       <item value="Returns a representation of {@code b} as an instance of type {@code A}. If {@code b} cannot be converted, an unchecked exception (such as {@link IllegalArgumentException}) should be thrown." />
       <item value="Returns a representation of {@code a} as an instance of type {@code B}. If {@code a} cannot be converted, an unchecked exception (such as {@link IllegalArgumentException}) should be thrown." />
@@ -107,8 +111,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="10" />
-        <entry key="ENGLISH" value="11" />
+        <entry key="CHINESE" value="14" />
+        <entry key="ENGLISH" value="15" />
       </map>
     </option>
   </component>
