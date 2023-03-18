@@ -93,6 +93,11 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="The result of this method vary by JDK version as this method uses" />
+      <item value="Gets the stack trace from a Throwable as a String." />
+      <item value="Throw a checked exception without adding the exception to the throws clause of the calling method. For checked exceptions, this method throws an UndeclaredThrowableException wrapping the checked exception. For Errors and RuntimeExceptions, the original exception is rethrown." />
+      <item value="Gets a short message summarising the root cause exception" />
+      <item value="Creates a compact stack trace for the root cause of the supplied" />
       <item value="TODO ought to implement Comparator&lt;String&gt; but that's not possible whilst maintaining binary compatibility." />
       <item value="Defines common decoding methods for byte array decoders." />
       <item value="canonicalize Url" />
@@ -111,8 +116,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="14" />
-        <entry key="ENGLISH" value="15" />
+        <entry key="CHINESE" value="19" />
+        <entry key="ENGLISH" value="20" />
       </map>
     </option>
   </component>
