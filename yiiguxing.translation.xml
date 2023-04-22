@@ -86,13 +86,14 @@
     </option>
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1679116847940" />
+    <option name="lastTrimTime" value="1682170768362" />
   </component>
   <component name="Translation.Settings">
     <option name="translator" value="MICROSOFT" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="A temporary workaround for Java 8 specific performance issue JDK-8161372 .&lt;br&gt; This class should be removed once we drop Java 8 support." />
       <item value="The number of bytes required to represent a primitive" />
       <item value="The largest power of two that can be represented as an {@code int}." />
       <item value="Indicates that a file already exists." />
@@ -119,8 +120,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="23" />
-        <entry key="ENGLISH" value="24" />
+        <entry key="CHINESE" value="24" />
+        <entry key="ENGLISH" value="25" />
       </map>
     </option>
   </component>
